@@ -1,4 +1,4 @@
-package homeWork3;
+package homeWork4;
 
 /**
  * The simplest program for displaying odd numbers from 1 to 100.

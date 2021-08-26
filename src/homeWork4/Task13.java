@@ -1,4 +1,4 @@
-package homeWork3;
+package homeWork4;
 /**
  * A simple program for displaying chess table using two-dimensional array (array of arrays).
  * First option displaying symbols "W" and "B" in chess order.

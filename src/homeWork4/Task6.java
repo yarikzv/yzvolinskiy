@@ -1,4 +1,4 @@
-package homeWork3;
+package homeWork4;
 
 /**
  * The simplest program that display 10 first sequence numbers 0, -5, -10, -15 ..
