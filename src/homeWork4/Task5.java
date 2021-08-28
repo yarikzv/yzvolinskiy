@@ -14,13 +14,17 @@ public class Task5 {
         System.out.print("Введите число n: ");
         int n = scanner.nextInt();
         //Using "for"
-        int result = 1;
-        for (int i = 0; i < n; i++) {
+        double result = 1.0;
+        int step = n > 0 ? n : (-1) * n;    //using ternary operator for getting absolute meaning of 'n'
+        for (int i = 0; i < step; i++) {
             result *= x;
+        }
+        if (n < 0) {
+            result = 1.0 / result;
         }
         System.out.println("x^n = " + result);
 
         //Using Math
-        System.out.println("x^n = " + (int) Math.pow(x, n));
+        System.out.println("x^n = " + Math.pow(x, n));
     }
 }
