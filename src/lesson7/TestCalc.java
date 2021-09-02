@@ -46,7 +46,7 @@ public class TestCalc {
         return expectedResultArray;
     }
     //actual result
-    public static double[] actualResult(){
+    public static double[] actualResult(double[] givenData){
         double[] actualResult = new double[100];
         for (int i = 0; i < actualResult.length; i++) {
             actualResult[i] = calculate(String.valueOf(givenData()));
@@ -54,9 +54,9 @@ public class TestCalc {
         return  actualResult;
     }
     //compare actual result
-    public static void compareResult(double[] expectedResult, double[] givenData){
+    public static void compareResult(double[] expectedResult, double[] actualResult){
         for (int i = 0; i < expectedResult.length; i++) {
-            if (expectedResult[i]!=givenData[i]){
+            if (expectedResult[i]!=actualResult[i]){
                 System.out.println("Error in element " + i);
             } else {
                 System.out.println("CHECK");
