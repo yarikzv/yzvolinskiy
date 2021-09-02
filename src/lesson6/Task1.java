@@ -5,9 +5,7 @@ public class Task1 {
         System.out.println(calculate("6 * 3"));
     }
 
-
-
-    static double calculate(String input) {
+    public static double calculate(String input) {
         double result = 0;
         String[] arr = input.split(" ");
         switch (arr[1]) {
