@@ -2,6 +2,11 @@ package homeWork7;
 
 import java.util.Scanner;
 
+/**
+ * An example of program refactoring.
+ * println changed to printf. For double numbers used format %.2
+ * for two digits after dot displaying. Using yearFix() method
+ * for changing "год" to "год/года/лет".*/
 public class DepositCalculatorToRefactor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -21,9 +26,9 @@ public class DepositCalculatorToRefactor {
             System.out.println("-------");
         }
     }
-
+    /*This method checks year and returns right word "год", "года" or "лет" for current year*/
     static String yearFix(int year) {
-        if (!(year%100>=11 && year%100<=14)) {
+        if (!(year % 100 >= 11 && year % 100 <= 14)) {      //if not 11, 12, 13 or 14 - go to switch statement
             switch (year % 10) {
                 case 1:
                     return "год";
@@ -34,7 +39,7 @@ public class DepositCalculatorToRefactor {
                 default:
                     return "лет";
             }
-        } else {
+        } else {                                            //else return "лет"
             return "лет";
         }
     }
