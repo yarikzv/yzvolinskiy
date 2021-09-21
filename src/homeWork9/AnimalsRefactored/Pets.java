@@ -1,5 +1,7 @@
 package homeWork9.AnimalsRefactored;
 
+import homeWork9.AnimalsRefactored.AnimalsInterfaces.VoiceMaking;
+
 /**
  * The abstract class Pets represents the pet animals and extends Animals and have two constructors
  * for creating animals with specific parameters String name and with all parameters.

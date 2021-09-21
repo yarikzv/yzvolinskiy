@@ -1,5 +1,7 @@
 package homeWork9.AnimalsRefactored;
 
+import homeWork9.AnimalsRefactored.AnimalsInterfaces.VoiceMaking;
+
 /**
  * The class Dog represents the Dog and extends Pets class and have two constructors
  * for creating animals with specific parameters String name and with all.

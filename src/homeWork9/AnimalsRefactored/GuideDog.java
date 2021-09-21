@@ -1,5 +1,7 @@
 package homeWork9.AnimalsRefactored;
 
+import homeWork9.AnimalsRefactored.AnimalsInterfaces.VoiceMaking;
+
 /**
  * The class GuideDog represents the Guide-dog and extends Dog class and have two constructors
  * for creating animals with specific parameters boolean isTrained and with all parameters.

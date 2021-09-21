@@ -1,5 +1,7 @@
 package homeWork9.AnimalsRefactored;
 
+import homeWork9.AnimalsRefactored.AnimalsInterfaces.VoiceMaking;
+
 /**
  * The abstract class WildAnimals represents the wild animals and extends Animals and have two constructors
  * for creating animals with specific parameter boolean IsPredator and with all parameters.
@@ -7,7 +9,7 @@ package homeWork9.AnimalsRefactored;
  * Overridden method makeVoice() has specific implementations for wild animals.
  * The field isPredator is private ant has getter and setter.
  * */
-public abstract class WildAnimals extends Animals implements VoiceMaking{
+public abstract class WildAnimals extends Animals implements VoiceMaking {
     private boolean isPredator;
 
     public WildAnimals(boolean isPredator) {
