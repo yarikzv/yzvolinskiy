@@ -12,4 +12,14 @@ public class Employee {
         this.surname = surname;
         this.departmentId = departmentId;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", departmentId=" + departmentId +
+                '}';
+    }
 }
