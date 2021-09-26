@@ -1,6 +1,6 @@
-package homeWork10;
+package homeWork11;
 
-import homeWork10.Interfaces.StringCollection;
+import homeWork11.Interfaces.StringCollection;
 
 import java.util.Arrays;
 

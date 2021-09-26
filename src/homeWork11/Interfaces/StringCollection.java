@@ -1,4 +1,4 @@
-package homeWork10.Interfaces;
+package homeWork11.Interfaces;
 
 public interface StringCollection {
     String get(int index);
